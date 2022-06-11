@@ -11,7 +11,7 @@ namespace Fibonacci_Ejercicio2
         static void Main(string[] args)
         {
 
-            fibonacci(0);
+           // fibonacci(0);
         }
 
         public static int fibonacci(int numero)
@@ -38,8 +38,7 @@ namespace Fibonacci_Ejercicio2
                     PrimerNumero = SegunNumero;
                     SegunNumero = SigNumero + PrimerNumero;
                 }
-                Console.WriteLine(PrimerNumero);
-                Console.ReadKey();
+                
                 return PrimerNumero;
 
 

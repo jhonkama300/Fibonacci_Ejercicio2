@@ -12,5 +12,19 @@ namespace TESTFIBONACCI
             int result = Fibonacci_Ejercicio2.Program.fibonacci(10);
             Assert.AreEqual(55, result);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            int result = Fibonacci_Ejercicio2.Program.fibonacci(10);
+            Assert.AreEqual(89, result);
+        }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            int result = Fibonacci_Ejercicio2.Program.fibonacci(3);
+            Assert.AreEqual(3, result);
+        }
     }
 }
