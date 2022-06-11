@@ -10,7 +10,7 @@ namespace TESTFIBONACCI
         public void TestMethod1()
         {
             int result = Fibonacci_Ejercicio2.Program.fibonacci(10);
-            Assert.AreEqual(9, result);
+            Assert.AreEqual(55, result);
         }
     }
 }
